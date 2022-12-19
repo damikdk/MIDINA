@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134F245E29511229001AF12B /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F245B29511229001AF12B /* MinimapView.swift */; };
+		134F245F29511229001AF12B /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F245C29511229001AF12B /* EditorView.swift */; };
+		134F246029511229001AF12B /* ProgressLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F245D29511229001AF12B /* ProgressLine.swift */; };
+		134F246929511236001AF12B /* toto-africa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134F246229511236001AF12B /* toto-africa.mp3 */; };
+		134F246A29511236001AF12B /* ed sheeran - shape of you.mid in Resources */ = {isa = PBXBuildFile; fileRef = 134F246329511236001AF12B /* ed sheeran - shape of you.mid */; };
+		134F246B29511236001AF12B /* Sullivan King Take Flight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134F246429511236001AF12B /* Sullivan King Take Flight.mp3 */; };
+		134F246C29511236001AF12B /* Slander Suffer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 134F246529511236001AF12B /* Slander Suffer.mp3 */; };
+		134F246D29511236001AF12B /* Demo.mid in Resources */ = {isa = PBXBuildFile; fileRef = 134F246629511236001AF12B /* Demo.mid */; };
+		134F246E29511236001AF12B /* the weeknd - reminder.mid in Resources */ = {isa = PBXBuildFile; fileRef = 134F246729511236001AF12B /* the weeknd - reminder.mid */; };
+		134F246F29511236001AF12B /* toto-africa.mid in Resources */ = {isa = PBXBuildFile; fileRef = 134F246829511236001AF12B /* toto-africa.mid */; };
 		13BF6FF729510DAC0097808E /* MIDINAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF6FF629510DAC0097808E /* MIDINAApp.swift */; };
-		13BF6FF929510DAC0097808E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BF6FF829510DAC0097808E /* ContentView.swift */; };
 		13BF6FFB29510DAD0097808E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BF6FFA29510DAD0097808E /* Assets.xcassets */; };
-		13BF6FFF29510DAD0097808E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BF6FFE29510DAD0097808E /* Preview Assets.xcassets */; };
+		13BF700929510E140097808E /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 13BF700829510E140097808E /* AudioKit */; };
+		13BF700C29510E280097808E /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 13BF700B29510E280097808E /* AudioKitUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		134F245B29511229001AF12B /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
+		134F245C29511229001AF12B /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		134F245D29511229001AF12B /* ProgressLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressLine.swift; sourceTree = "<group>"; };
+		134F246229511236001AF12B /* toto-africa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "toto-africa.mp3"; sourceTree = "<group>"; };
+		134F246329511236001AF12B /* ed sheeran - shape of you.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "ed sheeran - shape of you.mid"; sourceTree = "<group>"; };
+		134F246429511236001AF12B /* Sullivan King Take Flight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sullivan King Take Flight.mp3"; sourceTree = "<group>"; };
+		134F246529511236001AF12B /* Slander Suffer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Slander Suffer.mp3"; sourceTree = "<group>"; };
+		134F246629511236001AF12B /* Demo.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = Demo.mid; sourceTree = "<group>"; };
+		134F246729511236001AF12B /* the weeknd - reminder.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "the weeknd - reminder.mid"; sourceTree = "<group>"; };
+		134F246829511236001AF12B /* toto-africa.mid */ = {isa = PBXFileReference; lastKnownFileType = audio.midi; path = "toto-africa.mid"; sourceTree = "<group>"; };
 		13BF6FF329510DAC0097808E /* MIDINA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDINA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13BF6FF629510DAC0097808E /* MIDINAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDINAApp.swift; sourceTree = "<group>"; };
-		13BF6FF829510DAC0097808E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13BF6FFA29510DAD0097808E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13BF6FFC29510DAD0097808E /* MIDINA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MIDINA.entitlements; sourceTree = "<group>"; };
-		13BF6FFE29510DAD0097808E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13BF700C29510E280097808E /* AudioKitUI in Frameworks */,
+				13BF700929510E140097808E /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		134F245A29511229001AF12B /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				134F245B29511229001AF12B /* MinimapView.swift */,
+				134F245C29511229001AF12B /* EditorView.swift */,
+				134F245D29511229001AF12B /* ProgressLine.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		134F246129511236001AF12B /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				134F246229511236001AF12B /* toto-africa.mp3 */,
+				134F246329511236001AF12B /* ed sheeran - shape of you.mid */,
+				134F246429511236001AF12B /* Sullivan King Take Flight.mp3 */,
+				134F246529511236001AF12B /* Slander Suffer.mp3 */,
+				134F246629511236001AF12B /* Demo.mid */,
+				134F246729511236001AF12B /* the weeknd - reminder.mid */,
+				134F246829511236001AF12B /* toto-africa.mid */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		13BF6FEA29510DAC0097808E = {
 			isa = PBXGroup;
 			children = (
@@ -52,21 +96,13 @@
 		13BF6FF529510DAC0097808E /* MIDINA */ = {
 			isa = PBXGroup;
 			children = (
+				134F245A29511229001AF12B /* Editor */,
 				13BF6FF629510DAC0097808E /* MIDINAApp.swift */,
-				13BF6FF829510DAC0097808E /* ContentView.swift */,
 				13BF6FFA29510DAD0097808E /* Assets.xcassets */,
 				13BF6FFC29510DAD0097808E /* MIDINA.entitlements */,
-				13BF6FFD29510DAD0097808E /* Preview Content */,
+				134F246129511236001AF12B /* Files */,
 			);
 			path = MIDINA;
-			sourceTree = "<group>";
-		};
-		13BF6FFD29510DAD0097808E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				13BF6FFE29510DAD0097808E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +121,10 @@
 			dependencies = (
 			);
 			name = MIDINA;
+			packageProductDependencies = (
+				13BF700829510E140097808E /* AudioKit */,
+				13BF700B29510E280097808E /* AudioKitUI */,
+			);
 			productName = MIDINA;
 			productReference = 13BF6FF329510DAC0097808E /* MIDINA.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +153,10 @@
 				Base,
 			);
 			mainGroup = 13BF6FEA29510DAC0097808E;
+			packageReferences = (
+				13BF700729510E140097808E /* XCRemoteSwiftPackageReference "AudioKit" */,
+				13BF700A29510E280097808E /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+			);
 			productRefGroup = 13BF6FF429510DAC0097808E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +171,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BF6FFF29510DAD0097808E /* Preview Assets.xcassets in Resources */,
+				134F246F29511236001AF12B /* toto-africa.mid in Resources */,
+				134F246A29511236001AF12B /* ed sheeran - shape of you.mid in Resources */,
+				134F246D29511236001AF12B /* Demo.mid in Resources */,
+				134F246C29511236001AF12B /* Slander Suffer.mp3 in Resources */,
+				134F246B29511236001AF12B /* Sullivan King Take Flight.mp3 in Resources */,
+				134F246E29511236001AF12B /* the weeknd - reminder.mid in Resources */,
+				134F246929511236001AF12B /* toto-africa.mp3 in Resources */,
 				13BF6FFB29510DAD0097808E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13BF6FF929510DAC0097808E /* ContentView.swift in Sources */,
+				134F245F29511229001AF12B /* EditorView.swift in Sources */,
+				134F245E29511229001AF12B /* MinimapView.swift in Sources */,
+				134F246029511229001AF12B /* ProgressLine.swift in Sources */,
 				13BF6FF729510DAC0097808E /* MIDINAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,11 +316,10 @@
 				CODE_SIGN_ENTITLEMENTS = MIDINA/MIDINA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MIDINA/Preview Content\"";
 				DEVELOPMENT_TEAM = BZ82DRDZY8;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -277,12 +328,11 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.damirka.MIDINA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,11 +352,10 @@
 				CODE_SIGN_ENTITLEMENTS = MIDINA/MIDINA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MIDINA/Preview Content\"";
 				DEVELOPMENT_TEAM = BZ82DRDZY8;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -315,12 +364,11 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.damirka.MIDINA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +402,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13BF700729510E140097808E /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		13BF700A29510E280097808E /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13BF700829510E140097808E /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13BF700729510E140097808E /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		13BF700B29510E280097808E /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13BF700A29510E280097808E /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 13BF6FEB29510DAC0097808E /* Project object */;
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct MIDINAApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          EditorView()
         }
     }
 }
