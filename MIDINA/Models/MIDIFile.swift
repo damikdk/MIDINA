@@ -21,15 +21,21 @@ struct MIDIFile: Identifiable {
   init(from midiFile: AudioKit.MIDIFile) {
     self.name = midiFile.filename
     
+//    print("---------------------")
+//    print("New import file, \(midiFile.filename)")
+
     for (index, track) in midiFile.tracks.enumerated() {
       var newTrack = MIDITrack()
       newTrack.lengthInBeats = track.length
       
+//      print("track.length, \(track.length)")
+
       if let newName = track.name {
         newTrack.name = newName
       }
       
       let noteMap = MIDIFileTrackNoteMap(midiFile: midiFile, trackNumber: index)
+
       newTrack.notes = noteMap.noteList.map { midiNoteDuration in
         var newNote = MIDINote()
         
@@ -39,8 +45,12 @@ struct MIDIFile: Identifiable {
         
         return newNote
       }
-           
-      tracks.append(newTrack)
+      
+//      print("newTrack.notes.count, \(newTrack.notes.count)")
+      
+      if newTrack.notes.count > 0 {
+        tracks.append(newTrack)
+      }
     }
   }
 

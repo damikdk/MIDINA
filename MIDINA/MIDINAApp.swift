@@ -16,12 +16,14 @@ struct MIDINAApp: App {
 
   var body: some Scene {
       WindowGroup {
-        let midiFile = MIDIFile(from: demoMidiFile)
+//        let midiFile = MIDIFile(from: demoMidiFile)
+//        
+//        EditorView(
+//          midiFile: midiFile,
+//          currentTrack: midiFile.tracks.first!
+//        )
         
-        EditorView(
-          midiFile: midiFile,
-          currentTrack: midiFile.tracks.first!
-        )
+        MainScreen()
       }
   }
   

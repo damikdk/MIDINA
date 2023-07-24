@@ -10,6 +10,7 @@
 		132835C42A4DBB19003C71DF /* MIDITrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132835C32A4DBB19003C71DF /* MIDITrack.swift */; };
 		132835C62A4DBB5E003C71DF /* MIDIFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132835C52A4DBB5E003C71DF /* MIDIFile.swift */; };
 		132835C82A4DBB91003C71DF /* MIDINote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132835C72A4DBB91003C71DF /* MIDINote.swift */; };
+		132835CA2A52DE2C003C71DF /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132835C92A52DE2C003C71DF /* MainScreen.swift */; };
 		134F245E29511229001AF12B /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F245B29511229001AF12B /* MinimapView.swift */; };
 		134F245F29511229001AF12B /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F245C29511229001AF12B /* EditorView.swift */; };
 		134F246029511229001AF12B /* ProgressLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134F245D29511229001AF12B /* ProgressLine.swift */; };
@@ -30,6 +31,7 @@
 		132835C32A4DBB19003C71DF /* MIDITrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDITrack.swift; sourceTree = "<group>"; };
 		132835C52A4DBB5E003C71DF /* MIDIFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIFile.swift; sourceTree = "<group>"; };
 		132835C72A4DBB91003C71DF /* MIDINote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDINote.swift; sourceTree = "<group>"; };
+		132835C92A52DE2C003C71DF /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		134F245B29511229001AF12B /* MinimapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
 		134F245C29511229001AF12B /* EditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		134F245D29511229001AF12B /* ProgressLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressLine.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				132835C22A4DBAB5003C71DF /* Models */,
 				134F245A29511229001AF12B /* Editor */,
 				13BF6FF629510DAC0097808E /* MIDINAApp.swift */,
+				132835C92A52DE2C003C71DF /* MainScreen.swift */,
 				13BF6FFA29510DAD0097808E /* Assets.xcassets */,
 				13BF6FFC29510DAD0097808E /* MIDINA.entitlements */,
 				134F246129511236001AF12B /* Files */,
@@ -211,6 +214,7 @@
 				132835C42A4DBB19003C71DF /* MIDITrack.swift in Sources */,
 				132835C62A4DBB5E003C71DF /* MIDIFile.swift in Sources */,
 				134F246029511229001AF12B /* ProgressLine.swift in Sources */,
+				132835CA2A52DE2C003C71DF /* MainScreen.swift in Sources */,
 				13BF6FF729510DAC0097808E /* MIDINAApp.swift in Sources */,
 				13780A862A4337500047C9D5 /* MIDITrackView.swift in Sources */,
 			);
@@ -369,6 +373,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -406,6 +413,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -51,8 +51,7 @@ struct MIDITrackView: View {
         Section(header: pianoRoll()) {
                         
             Chart(track.notes) { note in
-              let _ = print(track.lengthInBeats)
-              
+
                 BarMark(
                   xStart: .value("note start", note.startTime),
                   xEnd: .value("note end", note.endTime),
@@ -61,7 +60,7 @@ struct MIDITrackView: View {
                   height: MarkDimension(integerLiteral: keyboardNodeSize)
                 )
                 .clipShape(RoundedRectangle(cornerRadius: 3, style: .continuous))
-              
+
             }
             .chartYAxis {
               AxisMarks(
